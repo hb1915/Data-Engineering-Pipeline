@@ -1,13 +1,7 @@
-
-------------------------------------------------------------------
-!!! Rename this file to README.md and upload it to your GitHub !!!
-------------------------------------------------------------------
-
-# Title Of Your Project
-Add a catchy title to your project. Something that people immediately know what you are doing
+# Complete Ecommerce Data Pipeline
 
 # Introduction & Goals
-- Introduce your project to the reader
+- The aim of this project is to create an entire data pipeline for an Ecommerce-based field. This will cover all stages from Data Ingestion to Visualisation. 
 - Orient this section on the Table of contents
 - Write this like an executive summary
   - With what data are you working
