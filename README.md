@@ -35,10 +35,10 @@
 
 The data set I have elected to use is the 'eCommerce Events History in Cosmetics Shop' from the [REES46 Marketing Platform](https://rees46.com/). Each column is an event on the retailers website from the following list:
 
-  - a product view
-  - a product added to cart
-  - a product removed from cart
-  - a product purchase
+   - a product view
+   - a product added to cart
+   - a product removed from cart
+   - a product purchase
 
 The dataset is fairly large at 2.27GB and ~ 8.5 million rows, but sits below the [AWS Free tier boundaries](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc) i.e. > 5GB in S3, so seems a reasonable choice. 
 
