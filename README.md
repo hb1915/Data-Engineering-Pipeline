@@ -40,7 +40,7 @@ The data set I have elected to use is the 'eCommerce Events History in Cosmetics
 
 The dataset is fairly large at 2.27GB and ~ 8.5 million rows, but sits below the AWS Free tier boundaries i.e. > 5GB in S3 (https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc), so seems a reasonable choice. 
 
-The dataset can be downloaded from [kaggle]. (https://www.kaggle.com/mkechinov/ecommerce-events-history-in-cosmetics-shop?select=2019-Dec.csv)
+The dataset can be downloaded from [kaggle](https://www.kaggle.com/mkechinov/ecommerce-events-history-in-cosmetics-shop?select=2019-Dec.csv).
 
 - Why did you choose it?
 
