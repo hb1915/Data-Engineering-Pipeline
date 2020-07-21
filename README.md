@@ -33,6 +33,7 @@
 # The Data Set
 - Explain the data set
 The data set I have elected to use is the 'eCommerce Events History in Cosmetics Shop' from the [REES46 Marketing Platform](https://rees46.com/). Each column is an event on the retailers website from the following list:
+
 ..*- a product view
 ..*- a product added to cart
 ..*- a product removed from cart
