@@ -32,9 +32,27 @@
 
 # The Data Set
 - Explain the data set
+The data set I have elected to use is the 'eCommerce Events History in Cosmetics Shop' from the REES46 Marketing Platform - https://rees46.com/. Each column is an event on the retailers website from the following list:
+- a product view
+- a product added to cart
+- a product removed from cart
+- a product purchase
+
+The dataset is fairly large at 2.27GB and ~ 8.5 million rows, but sits below the AWS Free tier boundaries i.e. > 5GB in S3 (https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc), so seems a reasonable choice. 
+
+The dataset can be downloaded from kaggle: https://www.kaggle.com/mkechinov/ecommerce-events-history-in-cosmetics-shop?select=2019-Dec.csv
+
 - Why did you choose it?
+
+This dataset lent itself to a many business cases, such as pricing, churn, RFM clustering etc, which are common high level concepts that are reguarly demanded within the eCommerce space. In addition, simulations of real-time dashboards would be possible i.e. top-level sales, category breakdown, etc. 
+
 - What do you like about it?
+
+
 - What is problematic?
+
+The timescale of the data is fairly limited (October 2019 - February 2020) which could put limitations on making estimates regarding customer LTV (lifetime value) or extrapolating in order to make predictions. The cyclical nature of eCommerce sales means that this factor is especially significant when considering this dataset. 
+
 - What do you want to do with it?
 
 # Used Tools
