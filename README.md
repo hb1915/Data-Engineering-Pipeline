@@ -99,7 +99,7 @@ Data Warehouse, columnar setup and no schema (use COPY command) means that it is
 - Go through your development and add your source code
 
 ## Ingestion Data Stream
-![Image of Ingestion Data Pipeline](https://github.com/hb1915/images/Ingestion%20Pipeline%20Diagram.jpg)
+![Image of Ingestion Data Pipeline](https://github.com/hb1915/images/Ingestion_Pipeline_Diagram.jpg)
 
 
 ## Stream Processing
