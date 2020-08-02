@@ -64,10 +64,23 @@ The timescale of the data is fairly limited (October 2019 - February 2020) which
 - How did you set them up
 
 ## Connect
+API Gateway
+API Gateway is the AWS Platform's framework for creation of REST/Web Socket APIs. You can dictate the methods created also, from PUT, GET, POST, etc.
 ## Buffer
+### Kinesis
+Acts as a message queueing system for AWS, where Data ingested can be stored intermediately before being sent to permanent storage. This prevents overload of processing systems as peaks in input are moderated by the throttling system in Kinesis. Number of Shards allocated dictate the throughput of the system, but increase the cost proportionally. 
+
 ## Processing
+Lambda
+Apache Spark
 ## Storage
+S3
+DynamoDB
+Redshift
 ## Visualization
+PowerBI
+## Orchestration
+Apache Airflow
 
 # Pipelines
 - Explain the pipelines for processing that you are building
