@@ -103,20 +103,19 @@ Data Warehouse, columnar setup and no schema (use COPY command) means that it is
 
 
 ## Stream Processing
-Streaming Pipeline Diagram.jpg
+<img src="https://user-images.githubusercontent.com/39841275/89123227-b3e50d00-d4c5-11ea-8b03-38ae9886860b.jpg" width="800" height="600">
 
 ## Batch Processing
-Batch Processing Pipeline Diagram.jpg
+<img src="https://user-images.githubusercontent.com/39841275/89123224-afb8ef80-d4c5-11ea-9647-d6790212549b.jpg" width="800" height="600">
 
 ## Visualizations
 
-Visualisation Pipeline Diagram.jpg
+<img src="https://user-images.githubusercontent.com/39841275/89123228-b5163a00-d4c5-11ea-9e02-7e298d7d13a0.jpg)" width="800" height="600">
 
 
 ## Finalised Data Pipeline
 
-
-Data Pipeline Finalised Diagram.jpg
+<img src="https://user-images.githubusercontent.com/39841275/89123225-b21b4980-d4c5-11ea-8e9e-eddf26614f07.jpg" width="800" height="600">
 
 
 # Demo
