@@ -101,7 +101,7 @@ Data Warehouse, columnar setup and no schema (use COPY command) means that it is
 ## Ingestion Data Stream
 <img src="https://user-images.githubusercontent.com/39841275/89123121-d32f6a80-d4c4-11ea-8a1d-d131ba8b1893.jpg" width="800" height="600">
 
-
+#images made by creating an issue, dragging file in and copying url to MD
 ## Stream Processing
 <img src="https://user-images.githubusercontent.com/39841275/89123227-b3e50d00-d4c5-11ea-8b03-38ae9886860b.jpg" width="800" height="600">
 
