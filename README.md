@@ -64,23 +64,35 @@ The timescale of the data is fairly limited (October 2019 - February 2020) which
 - How did you set them up
 
 ## Connect
-API Gateway
+### API Gateway
 API Gateway is the AWS Platform's framework for creation of REST/Web Socket APIs. You can dictate the methods created also, from PUT, GET, POST, etc.
 ## Buffer
 ### Kinesis
-Acts as a message queueing system for AWS, where Data ingested can be stored intermediately before being sent to permanent storage. This prevents overload of processing systems as peaks in input are moderated by the throttling system in Kinesis. Number of Shards allocated dictate the throughput of the system, but increase the cost proportionally. 
+Acts as a message queueing system for AWS, where Data ingested can be stored intermediately before being sent to permanent storage. This prevents overload of processing systems as peaks in input are moderated by the throttling system in Kinesis. Number of Shards allocated dictate the throughput of the system, but increase the cost proportionally.
+Topic(?)
 
 ## Processing
-Lambda
-Apache Spark
+### Lambda
+Event driven AWS Processing Framework, where code is run in a serverless manner on the input data and fed into an output. Examples might be converting incoming REST API data into JSON format and then writing this to a Kinesis topic(?).
+
+### Apache Spark
+Big data distributed processing framework, open source. Allows you to partition a job into many parts, process them on individual machines, and then combine the results leading to fast parallel processing. 
+
 ## Storage
-S3
-DynamoDB
-Redshift
+### S3
+Simple storage, no schema, no columns. Cheap, simple and scalable, all maintained by AWS so no need to configure. Not easy to analyse, unless using other bespoke AWS tools such as Athena. 
+
+### DynamoDB
+NoSQL scalable storage system, scalable. 
+
+### Redshift
+Data Warehouse, columnar setup and no schema (use COPY command) means that it is quick to gain analysis from. This makes it useful for integration with visualisation tools by minimising time to generate visualisations when changing dimensions/parameters. 
+
 ## Visualization
-PowerBI
+### PowerBI
+
 ## Orchestration
-Apache Airflow
+### Apache Airflow
 
 # Pipelines
 - Explain the pipelines for processing that you are building
