@@ -98,11 +98,26 @@ Data Warehouse, columnar setup and no schema (use COPY command) means that it is
 - Explain the pipelines for processing that you are building
 - Go through your development and add your source code
 
+## Ingestion Data Stream
+![Image of Ingestion Data Pipeline](https://github.com/hb1915/images/Ingestion Pipeline Diagram.jpg)
+
+
 ## Stream Processing
-### Storing Data Stream
-### Processing Data Stream
+Streaming Pipeline Diagram.jpg
+
 ## Batch Processing
+Batch Processing Pipeline Diagram.jpg
+
 ## Visualizations
+
+Visualisation Pipeline Diagram.jpg
+
+
+## Finalised Data Pipeline
+
+
+Data Pipeline Finalised Diagram.jpg
+
 
 # Demo
 - You could add a demo video here
