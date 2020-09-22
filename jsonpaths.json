@@ -1,0 +1,12 @@
+{
+  "jsonpaths": [
+      "$.UnitPrice",
+      "$.Description",
+      "$.Country",
+      "$.Quantity",
+      "$.InvoiceNo",
+      "$.InvoiceDate",
+      "$.CustomerID",
+      "$.StockCode"
+    ]
+}
